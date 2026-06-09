@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for Alex Morgan, a product designer and front-end developer."
+    />
+    <title>Alex Morgan | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Alex Morgan home">AM</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-pad">
+        <div class="hero-copy">
+          <p class="eyebrow">Product Designer & Front-end Developer</p>
+          <h1>I design polished digital products that people enjoy using.</h1>
+          <p class="hero-text">
+            I partner with startups and growing teams to turn complex ideas into accessible,
+            responsive, and conversion-focused web experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View projects</a>
+            <a class="button secondary" href="mailto:alex@example.com">Let's talk</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Portfolio highlights">
+          <div class="avatar" aria-hidden="true">A</div>
+          <div>
+            <p class="card-label">Available for select projects</p>
+            <h2>12+ launches shipped</h2>
+          </div>
+          <dl class="stats">
+            <div>
+              <dt>6 yrs</dt>
+              <dd>Experience</dd>
+            </div>
+            <div>
+              <dt>24%</dt>
+              <dd>Avg. conversion lift</dd>
+            </div>
+            <div>
+              <dt>98</dt>
+              <dd>Lighthouse score</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section-pad logos" aria-label="Trusted by">
+        <span>Selected clients</span>
+        <strong>Northstar</strong>
+        <strong>Bloom Labs</strong>
+        <strong>OrbitPay</strong>
+        <strong>Kindred</strong>
+      </section>
+
+      <section class="section-pad" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Featured work</p>
+          <h2>Recent projects</h2>
+          <p>Case studies spanning SaaS onboarding, ecommerce storytelling, and analytics dashboards.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card accent-blue">
+            <div class="project-meta">
+              <span>UX Strategy</span>
+              <span>2026</span>
+            </div>
+            <h3>OrbitPay checkout redesign</h3>
+            <p>
+              Reimagined a fintech checkout flow with clearer trust signals, fewer steps, and mobile-first
+              interactions.
+            </p>
+            <a href="#contact" aria-label="Discuss OrbitPay checkout redesign">Discuss a similar project</a>
+          </article>
+          <article class="project-card accent-orange">
+            <div class="project-meta">
+              <span>Brand System</span>
+              <span>2025</span>
+            </div>
+            <h3>Bloom Labs launch site</h3>
+            <p>
+              Built a vibrant landing experience and component library to support a seed-stage product launch.
+            </p>
+            <a href="#contact" aria-label="Discuss Bloom Labs launch site">Discuss a similar project</a>
+          </article>
+          <article class="project-card accent-green">
+            <div class="project-meta">
+              <span>Dashboard UI</span>
+              <span>2025</span>
+            </div>
+            <h3>Northstar insights hub</h3>
+            <p>
+              Designed dense analytics screens with progressive disclosure and accessible data visualizations.
+            </p>
+            <a href="#contact" aria-label="Discuss Northstar insights hub">Discuss a similar project</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-pad split" id="about">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Equal parts strategy, craft, and execution.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I help teams move from ambiguity to launch-ready experiences. My process blends user research,
+            rapid prototyping, visual design, and production-quality front-end implementation.
+          </p>
+          <p>
+            Whether you need a focused landing page, a full design system, or a cleaner product experience,
+            I bring the structure and momentum to make it happen.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-pad" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2>What I can help with</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Product design</h3>
+            <p>Research, journeys, wireframes, prototypes, and polished interface design.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Front-end development</h3>
+            <p>Responsive HTML, CSS, JavaScript, design systems, and performance tuning.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Growth pages</h3>
+            <p>Landing pages, messaging hierarchy, conversion audits, and A/B test ideas.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section-pad" id="contact">
+        <p class="eyebrow">Contact</p>
+        <h2>Have a product idea or website that needs a sharper story?</h2>
+        <p>Send a note and I’ll reply within two business days with next steps.</p>
+        <a class="button primary light" href="mailto:alex@example.com">alex@example.com</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Alex Morgan. Built with semantic HTML, modern CSS, and a little JavaScript.</p>
+      <div>
+        <a href="https://www.linkedin.com" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com" rel="noreferrer">GitHub</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
